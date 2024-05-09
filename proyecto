@@ -1,0 +1,14 @@
+ENTITY proyecto IS
+	PORT (
+		clk : IN STD_LOGIC;
+		button : IN STD_LOGIC;
+		switches : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		llegada : IN STD_LOGIC;
+		hex : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+		salida : OUT STD_LOGIC
+		);
+END proyecto;
+
+ARCHITECTURE structural OF proyecto IS
+BEGIN
+END structural;
